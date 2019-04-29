@@ -1,10 +1,10 @@
 import urllib2 , cookielib , random , re , sys , socket , time , httplib , ssl
 
        #########################################
-       # Author : Debby anggraini ( @ciku370 ) #
-       # Team   : Blackhole Security           #
-       # Date   : 2 - 5 - 2018                 #
-       # Github : https://github.com/ciku370   #
+       # CODER  : wahyu setiawan (MR.W4HYU)    #
+       # Team   : INDONESIAN ERROR SYSTEM      #
+       # contack: wahyu.st021@gmail.com        #
+       # Github : https://github.com/RADEN-ies #
        #########################################
 
 if sys.platform == "linux2" or sys.platform == "linux":
@@ -212,15 +212,15 @@ def cari(inurl , site , maxc):
     return finallist
 
 if __name__ == "__main__":
-	print ("      "+Y+"  _____       ___           _   ")
-	print (R+" |'+'|"+Y+" |  |  |___  |    \ ___ ___| |_ ")
-	print (R+" (o o)"+Y+" |    -| . | |  |  | . |  _| '_|")
-	print (R+"  (_) "+Y+" |__|__|___| |____/|___|_| |_,_|"+W+" (c)")
-	print (W+43*"-")
+	
+       print ("____  ____  ___      ____  _____  ____  _  _")
+       print ("(_  _)( ___)/ __) ___(  _ \(  _  )(  _ \( )/ )")
+       print (" _)(_  )__) \__ \(___))(_) ))(_)(  )   / )  (")
+       print ("(____)(____)(___/    (____/(_____)(_)\_)(_)\_)") 
 
-	inurl = raw_input(B+"[?]"+G+" Inurl    "+W+": ")
-	site  = raw_input(B+"[?]"+G+" Site     "+W+": ")
-	maxc  = raw_input(B+"[?]"+G+" Max Page "+W+": ")
+	inurl = raw_input(B+"[~]"+G+" Inurl    "+W+": ")
+	site  = raw_input(B+"[+]"+G+" Site     "+W+": ")
+	maxc  = raw_input(B+"[*]"+G+" Max Page "+W+": ")
 
 	print (43*"-")
 	cari(inurl , site , maxc)
